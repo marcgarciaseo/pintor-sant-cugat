@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Fondo amarillo -->
+  <rect width="200" height="200" fill="#F4B400" rx="20"/>
+  
+  <!-- Letra R (Reformas) y M (Martí) -->
+  <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="120" font-weight="bold" fill="#2C3E50" text-anchor="middle" dominant-baseline="middle">RM</text>
+  
+  <!-- Pequeña herramienta (martillo) -->
+  <path d="M 160 170 L 140 150 L 145 145 L 165 165 Z" fill="#2C3E50"/>
+  <rect x="135" y="140" width="8" height="25" fill="#2C3E50" transform="rotate(-45 139 152)"/>
+</svg>
+

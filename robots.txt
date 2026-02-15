@@ -1,0 +1,29 @@
+# robots.txt para Pintor Sant Cugat
+# https://pintorsantcugat.es
+
+# Permitir acceso a todos los bots de búsqueda
+User-agent: *
+Allow: /
+
+# Bloquear archivos de desarrollo y configuración
+Disallow: /*.ps1$
+Disallow: /*.bat$
+Disallow: /*.md$
+
+# Permitir específicamente archivos importantes para SEO
+Allow: /sitemap.xml
+Allow: /robots.txt
+
+# Rastreadores específicos de Google
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Bots de Bing
+User-agent: Bingbot
+Allow: /
+
+# Ubicación del sitemap
+Sitemap: https://pintorsantcugat.es/sitemap.xml
